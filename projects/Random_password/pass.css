@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+*{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(80, 79, 79);
+    background-image: url("./mech.jpg");
+}
+
+
+.heading{
+    height:50%;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right:15px;
+    margin-top: 250px;
+}
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.textbox{
+    height: 50%;
+    padding: 10px;
+    font-size: larger;
+    text-align: end;
+
+}
+
+
+
+.foot{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.reset{
+    padding: 5px;
+    font-size: medium;
+    text-align: end;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    padding: 5px;
+    font-size: medium;
+    text-align: end;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.gnrt{
+    padding: 5px;
+    font-size: medium;
+    text-align: end;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.textbox:hover ,.reset:hover, .gnrt:hover, .copy:hover{
+    box-shadow: 2px 2px 5px;
+    transform: scale(1.005);
+}
+

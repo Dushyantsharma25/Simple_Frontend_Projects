@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash_Calculator</title>
+    <link rel="stylesheet" href="cash.css">
+</head>
+<body>
+    <div class="up">
+        <div class="image">
+            <img src="./ganesh_ji.jpg" alt="logo_image" class="logo" height="100px">
+        </div>
+    </div>
+    <h1 class="heading">Donate For Future</h1>
+
+    <div class="card">
+        <div class="main">
+            <p class="thanks">Thanks!</p>
+            <form action="" class="donate">
+                <label for="name" class="name">
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </label>
+                <label for="phone" class="phone">
+                    <select required="true" id="phone">
+                        <option value="1" selected>+91 India</option>
+                        <option value="2">+1 USA</option>
+                        <option value="3">+86 China</option>
+                    </select>
+                    <input type="tel" id="phone" placeholder="012-3456-789" required minlength="10" pattern="[0-9]{10}">
+                </label>
+                <label for="amount">
+                    <input type="number" min="10" max="9999999999" placeholder="Enter amount" id="amount" required>
+                </label>
+
+                <button type="button" id="fun">Donate</button>
+            </form>
+        </div>
+        <div class="gain">
+            <p class="message">Total 0$ Donated By Angels</p>
+        </div>
+    </div>
+
+    <script src="cash.js"></script>
+</body>
+</html>
